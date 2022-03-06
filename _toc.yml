@@ -1,0 +1,14 @@
+format: jb-book
+root: about/syllabus
+parts:
+- caption: Part 1 - Introduction to Programming
+  chapters:
+  - file: class/week01/week01_summary
+    title: Week 1!
+    sections:
+    - file: class/week01/videos
+    - file: class/week01/Lecture
+- caption: Course Feedback
+  chapters:
+  - file: about/feedback
+    title: Anonymous Feedback Form
