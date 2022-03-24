@@ -27,6 +27,7 @@ void drawShape() {
   int age = int(random(0, 100));
   int priors = int(random(2, 12));
   textSize(50);
+  text("Up or down?",width/2 + 100,height/2+10);
 
   if (choice%2 == 0) {
     //regular - recidivate
@@ -34,14 +35,14 @@ void drawShape() {
     fill(shapeColor);
     stroke(shapeColor);
     polygon(width/2, height/2, 100, priors, false);
-    text(priors, width/2, 200);
+    //text(priors, width/2, 200);
   } else {
     //blob - not recidivate
     shapeColor = color(random(256), 200, 200, constrain(age-30, 15, 100));
     fill(shapeColor);
     noStroke();
     polygon(width/2, height/2, 100, priors+1, true);
-    text(priors+1, width/2, 800);
+    //text(priors+1, width/2, 800);
   }
 }
 
