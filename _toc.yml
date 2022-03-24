@@ -1,13 +1,19 @@
 format: jb-book
 root: about/syllabus
 parts:
-- caption: Part 1 - Introduction to Programming
+- caption: Talk 1
   chapters:
-  - file: class/week01/week01_summary
-    title: Week 1!
+  - file: notebooks/talk1/classification
+    title: Classification with Machine Learning
     sections:
     - file: class/week01/videos
     - file: class/week01/Lecture
+    
+- caption: Talk 2
+  chapters:
+  - file: notebooks/talk2/Lecture
+    title: Importance of Exploratory Data Analysis
+    
 - caption: Course Feedback
   chapters:
   - file: about/feedback
