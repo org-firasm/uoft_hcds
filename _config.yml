@@ -29,7 +29,7 @@ bibtex_bibfiles:
 sphinx:
   config:
     html_show_copyright: false
-    html_extra_path: ['files']
+    html_extra_path: ['notebooks/talk1/imgs','notebooks/talk1/data','notebooks/talk2/imgs','notebooks/talk2/data']
     myst_enable_extensions:
     - amsmath
     - colon_fence
