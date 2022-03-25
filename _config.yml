@@ -1,7 +1,7 @@
 # Book settings
 title: INF 2179
 author: Firas Moosvi
-logo: images/logo.jpg
+logo: images/logo.png
 copyright: ""
 exclude_patterns: ["LICENSE.md", "README.md","files/*"]
 
