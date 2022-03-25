@@ -27,6 +27,8 @@ bibtex_bibfiles:
   - bibliography.bib
 
 sphinx:
+  extra_extensions:
+    - jupyterlite_sphinx
   config:
     html_show_copyright: false
     html_extra_path: ['notebooks/talk1/imgs','notebooks/talk1/data','notebooks/talk2/imgs','notebooks/talk2/data']

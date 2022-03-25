@@ -13,6 +13,8 @@ parts:
   chapters:
   - file: notebooks/talk2/Lecture
     title: Importance of Exploratory Data Analysis
+  - file: notebooks/talk2/Workbook_instructions
+    title: Student Workbook
     
 - caption: Course Feedback
   chapters:
