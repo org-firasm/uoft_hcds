@@ -5,3 +5,4 @@ pandas
 altair
 sklearn
 vega_datasets
+jupyterlite_sphinx
